@@ -59,6 +59,42 @@ nav ul li a {
   color: #333;
 }
 
+.page-content {
+  margin: 4%;
+}
+
+.page-content header {
+  margin-top: 5%;
+  max-width: 80%;
+}
+
+.page-content header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 6vw;
+}
+
+.page-content header p {
+  line-height: 30px;
+  color: gray;
+}
+
+.page-content header button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-content header button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     justify-content: center;
@@ -66,6 +102,11 @@ nav ul li a {
 
   nav ul {
     display: none;
+  }
+
+  .page-content header {
+    margin-top: 10%;
+    max-width: 100%;
   }
 
 }
