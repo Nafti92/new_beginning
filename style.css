@@ -95,6 +95,20 @@ nav ul li a {
   border: 1px solid #333;
 }
 
+.page-content .presentation-image {
+  margin-top: 5%;
+}
+
+.page-content .presentation-image img {
+  width: 100%;
+  height: auto;
+}
+
+.page-content .projects-section {
+  margin-top: 5%;
+  
+}
+
 @media screen and (max-width: 768px) {
   nav {
     justify-content: center;
